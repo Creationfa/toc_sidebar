@@ -4,9 +4,11 @@
     if($fields['list']):  ?>
     <li>
       <a href="<?php echo DOMAIN_CATEGORIES.$key; ?>"><?php echo $fields['name']; ?></a>
-    </li>    
+    </li>
+       
     <?php endif;endforeach; ?>
   </ul>
   <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 </nav>
+
 <a class="btn-getstarted" href="https://creationfa.com/">Accueil</a>
